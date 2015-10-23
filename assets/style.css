@@ -1,0 +1,305 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a, li, button {
+	font-family: 'Montserrat', serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+p, footer {
+	font-family: 'Hind', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+li {
+	color:white;
+	list-style-type: none;
+}
+
+button {
+	border: none;
+	width: 270px;
+	height: 60px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-top: 40px; /*Sacarle el margin top y encontrar una manera mas eficiente */
+}
+
+ nav {
+ 	text-align: center;
+ 	padding-top: 10px;
+ }
+
+ nav a {
+ 	margin:20px;
+ }
+/*header */
+.pageheader {
+	background-image: url("../images/headerbg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header {
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+
+header h1, p {
+	color:white;
+}
+
+button.gradient {
+	background-image: linear-gradient(to right, hsl(198, 100%, 17%) 0%, hsl(141, 76%, 48%) 100%);
+}
+
+/*primera seccion*/ 
+.first {
+	background-color: #3eb8f7;
+	padding-top: 70px;
+	padding-bottom: 0px;
+	color:white;
+}
+
+.first h2 {
+	color:white;
+	padding-top:60px;
+}
+
+.large-7.columns.video {
+	background-image: url("../images/tablet.png");
+	height:380px;
+	text-align: center;
+ 	background-repeat: no-repeat;
+ 	background-position: center bottom;
+ 	background-size: 100% auto;
+ 	padding-bottom: 0px;
+}
+
+button.playvideo {
+	display: block;
+	margin: auto;
+	border:3px solid #3eb8f7;
+	background-color: black;
+	opacity: 0.5;
+	position: relative;
+	top:50%;
+}
+
+button.playvideo:hover {
+	display: block;
+	margin: auto;
+	border:3px solid #3eb8f7;
+	background-color: gray;
+	opacity: 0.7;
+}
+/*segunda seccion*/ 
+.second {
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.second img {
+	width: 4%;
+}
+
+.second img.devices {
+	width:50%;
+}
+
+.second p, li {
+	color:#909c9b;
+}
+
+.second li {
+	display:inline;
+}
+.second li > img {
+	margin: 20px;
+}
+
+li.features {
+	display: block;
+}
+
+/*tercera seccion - testimonios */ 
+.third {
+	background-color: #233041;
+}
+
+.third p {
+	color:white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.row.planrow {
+	padding:80px;
+}
+
+.third img {
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	width:100px;
+	height:100px;
+}
+
+.third blockquote p {
+	font-style: italic;
+	font-size: 24px
+}
+
+.third a {
+	display: block;
+	text-align: center;
+	color:#008dc8;
+}
+/*cuarta seccion*/ 
+.plans {
+	background-color: #f1f1f1;
+	color:white;
+}
+
+.plan {
+	padding:0px 0px 40px;
+}
+
+.plans h2,h6 {
+	text-align: center;
+	color:black;
+}
+
+.plans li {
+	color:white;
+}
+
+.plansmall{
+	background-color: #008dc8;
+}
+
+.planpersonal {
+	background-color: #1ed760;
+	box-shadow: 0 6px 8px rgba(40, 40, 40, 0.4);
+	transform: scale(1.05);
+	position:relative;
+	z-index: 10;
+}
+
+.plantitle {
+	color:white;
+	text-align: center;
+	background-color: #0273a3;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.plantitle p {
+	font-size: 30px;
+	font-family: 'Montserrat', serif;
+}
+
+.plantitle span {
+	font-size:50px;
+}
+
+.plantitle.green {
+	background-color: #16c053;
+}
+
+.plandetail {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+}
+
+.plandetail li {
+	margin-bottom: 15px;
+	position:relative;
+}
+
+.plandetail span {
+	position:absolute;
+	right:0px;
+	width:20px;
+	text-align:center;
+}
+
+button.planbasichome {
+	background-color:#0d668d;
+	display: block;
+	margin: auto;
+}
+
+button.personalplan {
+	background-color: #20954a;
+	display: block;
+	margin: auto;
+}
+
+/*quinta seccion*/ 
+.fifth {
+	background-color: #3eb8f7;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+.fifth h2 {
+	padding-left: 50px;
+}
+.fifth li {
+	color:black;
+}
+
+button.planbusiness {
+	background-color:#0d668d;
+	display: block;
+}
+
+/*footer*/ 
+footer {
+	background-color: #233041;
+	text-align: center;
+}
+
+footer li {
+	display:inline;
+	margin:10px;
+}
+
+footer .footerimg {
+	margin-top: 20px;
+	width: 15%;
+	height:15%;
+}
+
+footer p {
+	color:#797e85;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
